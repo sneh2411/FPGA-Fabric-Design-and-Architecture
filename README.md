@@ -49,7 +49,7 @@ Significance of FPGA:
 ---
 
 # FPGA Architecture
-![Introduction](https://github.com/sneh2411/RISC-V-Based-Myth/blob/c250a8eb4c8890a9f267eb631c8255efaee4666b/Introduction.jpg)
+![FPGA Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/c250a8eb4c8890a9f267eb631c8255efaee4666b/FPGA Architecture.png)
 An FPGA mainly consists of:
 - Configurable Logic Blocks (CLBs)
 - Look-Up Tables (LUTs)
