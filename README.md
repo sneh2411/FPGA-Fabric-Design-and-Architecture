@@ -36,6 +36,7 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 - Elaboration
   
 - Synthesis
+- ![Synthesis](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/RTL%20Schematic.png)
 - Implementation
 - Timing analysis
 - Power analysis
