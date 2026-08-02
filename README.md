@@ -108,7 +108,7 @@ set_output_delay -clock pclk -max 0 [get_ports {*}]
 Hold timing ensures data remains stable after the active clock edge.
 
 ## Hold Timing Report
-
+![Hold_TimingReport_afterconsrt](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Hold_Timing%20Report_afterconsrt.png)
 
 
 *Hold timing report generated using VPR timing analysis.*
