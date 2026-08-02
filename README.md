@@ -39,7 +39,7 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 - Implementation
 - Timing analysis
 - Power analysis
-- ![Power_analysis] (https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Power%20analysis_report.png)
+- ![Poweranalysis_report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Power%20analysis_report.png)
 - Device utilization
 - ![Resource](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Resource_Utilization_report.png)
 - Constraints and pin mapping
