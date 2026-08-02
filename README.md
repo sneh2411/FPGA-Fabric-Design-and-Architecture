@@ -40,6 +40,7 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 - Timing analysis
 - Power analysis
 - Device utilization
+- ![Resource](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Resource_Utilization_report.png)
 - Constraints and pin mapping
 ![Constraint_file](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Constraint_file.png)
 - Virtual I/O (VIO)
