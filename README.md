@@ -34,15 +34,19 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 - Simulation
   ![Simulation_Counter](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/154bce8823589f8bde3c9c76d8171f75f6857e01/Simulation_Counter.png)
 - Elaboration Verilog HDL into an RTL schematic representation.
+- 
   ![Pin_assignmentsetup](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Pinassignment(setup.png)
 - Synthesis
 - ![Synthesis](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/RTL%20Schematic.png)
 - Implementation
+- 
 - Timing analysis
 - ![Design_Timing Summary](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Design_Timing%20Summary.jpg)
+
 - Power analysis gives dynamic,static,clock and signal power
 - ![Poweranalysis_report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Power%20analysis_report.png)
-- Device utilization
+
+- Resource utilization
 - ![Resource](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Resource_Utilization_report.png)
 - Constraints and pin mapping
 ![Constraint_file](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Constraint_file.png)
@@ -51,10 +55,6 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 
 Virtual Input/Output (VIO) allows internal FPGA signals to be monitored and controlled in real-time using Vivado Hardware Manager.
 
-Applications:
-- Internal debugging
-- Signal monitoring
-- Runtime testing
 # Day 2 - Study on OpenFPGA, VPR and VTR Flow
 
 Day 2 focused on understanding the open-source FPGA CAD flow Tools:
