@@ -82,84 +82,34 @@ There are about more than 20 architecture of that #EArch.xml# FPGA architecture 
 
 
 ### Critical Path Analysis Report
-
-
-ting Utilization
-
-Routing utilization shows:
-- Channel occupancy
-- Routing efficiency
-- Congestion distribution
-- Resource utilization
-
 ## Routing Utilization Report
 
-<img width="940" height="721" alt="image" src="https://github.com/user-attachments/assets/42dc365d-d40b-463f-8e63-024111186a4c" />
-
-*Routing utilization generated after placement and routing.*
-
----
+![RoutingUtilization_Report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Routing%20Utilization_report.png)
 
 # Timing Analysis using Constraints
 
-Timing constraints were added using an SDC file.
+Timing constraints were added using an SDC file. The constraints file gives Clock period,Input and Output delays
 
-The constraints file defines:
-- Clock period
-- Input delays
-- Output delays
-
----
-
-# SDC Constraint File
-
-## Constraint File
-
+## SDC Constraint File
 ```tcl
 create_clock -period 10 -name pclk
 set_input_delay -clock pclk -max 0 [get_ports {*}]
 set_output_delay -clock pclk -max 0 [get_ports {*}]
 ```
-
----
-
 # Running VPR with Constraints
 
-```bash
-$VTR_ROOT/vpr/vpr \
-$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
-$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif \
---route_chan_width 100 \
---sdc_file tseng.sdc \
---disp on
-```
-
----
-
-# Setup Timing Analysis
-
-Setup timing checks whether data reaches destination registers before the active clock edge.
-
-After adding constraints:
-- Setup slack improved
-- Timing closure was achieved
-- Violations were reduced
-
+## Setup Timing Analysis - Slack improved and violations reduced
 ## Setup Timing Report
 
-<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/d1ab7bd8-25ce-4826-8ce1-c80a23df133c" />
 
 *Setup timing report after applying timing constraints.*
 
----
-
 # Hold Timing Analysis
-
 Hold timing ensures data remains stable after the active clock edge.
 
 ## Hold Timing Report
 
-<img width="940" height="194" alt="image" src="https://github.com/user-attachments/assets/eb897b40-8f6c-4ddf-98ee-b4b0dee00bfa" />
+
 
 *Hold timing report generated using VPR timing analysis.*
 
