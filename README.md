@@ -36,7 +36,7 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
   ![Simulation_Counter](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/154bce8823589f8bde3c9c76d8171f75f6857e01/Simulation_Counter.png)
 - Elaboration Verilog HDL into an RTL schematic representation.
 - 
-  ![Pinassignment(setup](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Pinassignment(setup.png)
+  ![Pinassignmentsetup](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Pinassignmentsetup.png)
 - Synthesis
 - ![Synthesis](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/RTL%20Schematic.png)
 - Implementation
