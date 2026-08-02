@@ -21,9 +21,10 @@ The complete flow covered:
 - Device utilization
 - Constraints and pin mapping
 - Virtual I/O (VIO)
-<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/456706e8-76f9-4326-ace5-82c53904f2f8" />
+
 ---
-![Introduction](https://github.com/sneh2411/RISC-V-Based-Myth/blob/c250a8eb4c8890a9f267eb631c8255efaee4666b/Introduction.jpg)
+![FPGA Architecture][  ] 
+
 # Introduction to FPGA (Field Programmable Gate Array)
 
 A field-programmable gate array (FPGA) is a type of configurable integrated circuit that can be repeatedly programmed . 
