@@ -75,8 +75,7 @@ The complete flow from Verilog RTL to FPGA routing and timing analysis was explo
 There are about more than 20 architecture of that #EArch.xml# FPGA architecture file was analyzed using the VPR flow. The architecture visualization, routing resources, nets, logical connections and timing reports were generated and studied.
 ### Nets Analysis - net connections after routing
 
-
-
+![Nets report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Nets%20report.png)
 
 ### Logical Connections Report
 
