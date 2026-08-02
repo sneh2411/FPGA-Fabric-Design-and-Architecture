@@ -1,11 +1,11 @@
 # FPGA-Fabric-Design-and-Architecture
-refers to the internal structure and organization of a Field-Programmable Gate Array (FPGA) and other variants 
+refers to the internal structure and organization of a Field-Programmable Gate Array (FPGA) and other variants like OpenFPGA,SOFA and Customisation
 
-# Day 1 – Introduction to FPGA Architecture and Vivado Design Flow using Basys board
+# Day 1 – Introduction to FPGA Architecture, Programming and Vivado Design Flow using Basys board. FPGA operating remotely.
 
 ## Objective
 
-The objective of Day 1 was to understand the fundamentals of FPGA architecture, FPGA design flow, and implementation of a simple digital design using Xilinx Vivado on the Basys 3 FPGA board.
+The objective of Day 1 was to understand the fundamentals of FPGA architecture, FPGA design flow, and implementation of a simple digital design using Xilinx Vivado on the Basys 3 FPGA board and remotely too
 
 The complete flow covered:
 - Introduction to FPGA and programmable logic
@@ -21,12 +21,12 @@ The complete flow covered:
 - Device utilization
 - Constraints and pin mapping
 - Virtual I/O (VIO)
-
+<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/456706e8-76f9-4326-ace5-82c53904f2f8" />
 ---
 
-# Introduction to FPGA ( Field Programmable Gate Array)
+# Introduction to FPGA (Field Programmable Gate Array)
 
-An FPGA is an integrated circuit that can be configured by the user after manufacturing. Unlike ASICs, which are fabricated for a fixed functionality, FPGAs can be reprogrammed multiple times.
+A field-programmable gate array (FPGA) is a type of configurable integrated circuit that can be repeatedly programmed . 
 
 Significance of FPGA:
 - Hardware acceleration
@@ -38,13 +38,14 @@ Significance of FPGA:
 
 ## Comparison  
 
-| FPGA | ASIC |
-|---|---|
-| Reprogrammable | Fixed after fabrication |
-| Faster prototyping | Long fabrication cycle |
-| Lower initial cost | High initial fabrication cost |
-| Higher flexibility | Optimized performance |
-| RTL to Bitstream | RTL to Layout |
+Feature| FPGA | ASIC |
+|---|---|---|
+Design Process| simpler design | long and complex
+Flexibility| Reprogrammable | Fixed after fabrication |
+Time to market| Faster prototyping | Long fabrication cycle |
+Cost| Lower initial cost | High initial fabrication cost |
+Performance| slower but more versatile | faster and more efficient |
+Hardware Design| RTL to Bitstream | RTL to Layout |
 
 ---
 
