@@ -120,4 +120,7 @@ Hold timing ensures data remains stable after the active clock edge.
 ## Power Analysis using VTR
 ![Power_Analysis_report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Power_analysis_report.png)
 
-# Day 3: 
+# Day 3: Mythcore Processor Implementation and FPGA Analysis
+### RTL Simulation waveform of Mythcore Processor using Vivado software on Basys 3 board
+
+
