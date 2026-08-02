@@ -8,7 +8,6 @@ refers to the internal structure and organization of a Field-Programmable Gate A
 
 The objective of Day 1 was to understand the fundamentals of FPGA architecture, FPGA design flow, and implementation of a simple digital design using Xilinx Vivado on the Basys 3 FPGA board and remotely too
 # Introduction to FPGA (Field Programmable Gate Array)
-
 A field-programmable gate array (FPGA) is a type of configurable integrated circuit that can be repeatedly programmed . 
 
 Significance of FPGA:
@@ -31,13 +30,10 @@ Performance| slower but more versatile | faster and more efficient |
 Hardware Design| RTL to Bitstream | RTL to Layout |
 
 ---
-The complete flow covered:
-- Introduction to FPGA and programmable logic
-- FPGA vs ASIC comparison
-- FPGA internal architecture
-- LUTs, CLBs, Flip-Flops and routing resources
-- Vivado RTL-to-Bitstream flow
-- Behavioral simulation
+# The complete flow covered:
+- Simulation
+  
+- Elaboration
 - Synthesis
 - Implementation
 - Timing analysis
@@ -50,36 +46,7 @@ The complete flow covered:
 
 
 
-An FPGA mainly consists of:
-- Configurable Logic Blocks (CLBs)
-- Look-Up Tables (LUTs)
-- Flip-Flops (FFs)
-- Programmable Interconnects
-- Block RAM
-- DSP Blocks
-- I/O Blocks
 
-## Configurable Logic Block (CLB)
-
-CLBs are the fundamental building blocks of an FPGA.
-
-A CLB contains:
-- LUTs for combinational logic
-- Flip-flops for sequential logic
-- Carry chains for arithmetic operations
-- Multiplexers and routing resources
-
-## Look-Up Tables (LUTs)
-
-A LUT implements logic using a truth table approach.
-
-For an N-input LUT:
-- There are \(2^N\) memory entries
-- Each entry represents output for one input combination
-
-A 3-input LUT can implement any logic function of 3 variables.
-
----
 
 # FPGA Programming Flow
 
