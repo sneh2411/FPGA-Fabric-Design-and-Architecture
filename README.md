@@ -67,88 +67,26 @@ The complete flow from Verilog RTL to FPGA routing and timing analysis was explo
 
 ## VPR Visualization
 
-<img width="940" height="771" alt="image" src="https://github.com/user-attachments/assets/af78fc1d-c4be-40b9-9910-12a2a8a96c13" />
-
-
-*VPR placement and routing visualization.*
+![VPR Visualisation](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/commit/38ebdbfef4f2e67e596c2eb8e54dc18f65e45529)
 
 ---
 
 # EArch FPGA Architecture Analysis using VPR
 
-The `EArch.xml` FPGA architecture file was analyzed using the VPR flow. The architecture visualization, routing resources, nets, logical connections and timing reports were generated and studied.
-
-The VPR flow was executed using the following command:
-
-```bash
-$VTR_ROOT/vpr/vpr \
-$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
-$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif \
---route_chan_width 100 \
---disp on
-```
-
----
-
-# FPGA Architecture Visualization
-
-The FPGA architecture generated using `EArch.xml` contains:
-- Logic blocks
-- Routing channels
-- Switch blocks
-- Interconnect resources
-- FPGA grid structure
+There are about more than 20 architecture of that #EArch.xml# FPGA architecture file was analyzed using the VPR flow. The architecture visualization, routing resources, nets, logical connections and timing reports were generated and studied.
+### Nets Analysis - net connections after routing
 
 
-# Nets Analysis
 
-The nets report contains:
-- Source and destination nodes
-- Interconnect paths
-- Net routing information
-- Routing resource usage
 
-## Nets Report
+### Logical Connections Report
 
-<img width="940" height="720" alt="image" src="https://github.com/user-attachments/assets/709a35a3-7938-491d-8c06-9a9130a1cfbf" />
 
-*Net connections generated after routing.*
 
----
+### Critical Path Analysis Report
 
-# Logical Connections
 
-Logical connections show:
-- Signal interconnections
-- Routing connectivity
-- Logic block communication
-
-## Logical Connections Report
-
-<img width="940" height="709" alt="image" src="https://github.com/user-attachments/assets/cdf823c2-2ea1-4c48-85c4-6ad9fe6846de" />
-
-*Logical interconnections generated during routing.*
-
----
-
-# Critical Path Analysis
-
-Critical path analysis determines:
-- Longest timing path
-- Maximum propagation delay
-- Maximum operating frequency
-
-The critical path directly impacts FPGA performance.
-
-## Critical Path Report
-
-<img width="940" height="711" alt="image" src="https://github.com/user-attachments/assets/44e6e49c-3f2b-412e-81ba-1414fa151c5b" />
-
-*Critical timing path generated during timing analysis.*
-
----
-
-# Routing Utilization
+ting Utilization
 
 Routing utilization shows:
 - Channel occupancy
