@@ -49,7 +49,7 @@ Hardware Design| RTL to Bitstream | RTL to Layout |
 ---
 
 # FPGA Architecture
-![FPGA_Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/FPGA%20Architecture.png).
+![FPGA_Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/FPGA_Architecture.png).
 
 An FPGA mainly consists of:
 - Configurable Logic Blocks (CLBs)
