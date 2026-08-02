@@ -67,7 +67,7 @@ The complete flow from Verilog RTL to FPGA routing and timing analysis was explo
 
 ## VPR Visualization
 
-![VPR_Visualisation](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/commit/38ebdbfef4f2e67e596c2eb8e54dc18f65e45529)
+![VPR_Visualisation]([https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/commit/38ebdbfef4f2e67e596c2eb8e54dc18f65e45529](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/VPR_Visualisation.png)
 
 ---
 
