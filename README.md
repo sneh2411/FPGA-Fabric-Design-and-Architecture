@@ -101,8 +101,8 @@ set_output_delay -clock pclk -max 0 [get_ports {*}]
 ## Setup Timing Analysis - Slack improved and violations reduced
 ## Setup Timing Report
 
+![Setup_Timingreport](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Setup_Timing%20report.png)
 
-*Setup timing report after applying timing constraints.*
 
 # Hold Timing Analysis
 Hold timing ensures data remains stable after the active clock edge.
