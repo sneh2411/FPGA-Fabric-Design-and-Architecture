@@ -30,10 +30,11 @@ Performance| slower but more versatile | faster and more efficient |
 Hardware Design| RTL to Bitstream | RTL to Layout |
 
 ---
-# The complete flow covered:
+# The complete flow for a FPGA Programming on Vivado:
 - Simulation
   ![Simulation_Counter](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/154bce8823589f8bde3c9c76d8171f75f6857e01/Simulation_Counter.png)
 - Elaboration
+  
 - Synthesis
 - Implementation
 - Timing analysis
