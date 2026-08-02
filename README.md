@@ -7,7 +7,8 @@ refers to the internal structure and organization of a Field-Programmable Gate A
 ## Objective
 
 The objective of Day 1 was to understand the fundamentals of FPGA architecture, FPGA design flow, and implementation of a simple digital design using Xilinx Vivado on the Basys 3 FPGA board and remotely too
-# Introduction to FPGA (Field Programmable Gate Array)
+
+#### Introduction to FPGA (Field Programmable Gate Array)
 A field-programmable gate array (FPGA) is a type of configurable integrated circuit that can be repeatedly programmed . 
 
 Significance of FPGA:
@@ -30,7 +31,7 @@ Performance| slower but more versatile | faster and more efficient |
 Hardware Design| RTL to Bitstream | RTL to Layout |
 
 ---
-# The complete flow for a FPGA Programming on Vivado:
+### The complete flow for a FPGA Programming on Vivado:
 - Simulation
   ![Simulation_Counter](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/154bce8823589f8bde3c9c76d8171f75f6857e01/Simulation_Counter.png)
 - Elaboration Verilog HDL into an RTL schematic representation.
