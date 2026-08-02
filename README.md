@@ -113,4 +113,4 @@ Hold timing ensures data remains stable after the active clock edge.
 ## Post Synthesis Simulation Waveform
 ![Post_Synthesis_sim_Waveform](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Post_Synthesis_sim_Waveform.png)
 ## Power Analysis
-![Power_Analysis](  )
+![PowerAnalysis_report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Power%20analysis_report.png )
