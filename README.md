@@ -1,28 +1,12 @@
 # FPGA-Fabric-Design-and-Architecture
-refers to the internal structure and organization of a Field-Programmable Gate Array (FPGA) and other variants like OpenFPGA,SOFA and Customisation
+refers to the internal structure and organization of a Field-Programmable Gate Array (FPGA) and other variants like OpenFPGA,RISCV Core on Vivado,SOFA and RISC-V core on custom SOFA fabric
+![FPGA_Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/FPGA_Architecture.png).
 
 # Day 1 – Introduction to FPGA Architecture, Programming and Vivado Design Flow using Basys board. FPGA operating remotely.
 
 ## Objective
 
 The objective of Day 1 was to understand the fundamentals of FPGA architecture, FPGA design flow, and implementation of a simple digital design using Xilinx Vivado on the Basys 3 FPGA board and remotely too
-
-The complete flow covered:
-- Introduction to FPGA and programmable logic
-- FPGA vs ASIC comparison
-- FPGA internal architecture
-- LUTs, CLBs, Flip-Flops and routing resources
-- Vivado RTL-to-Bitstream flow
-- Behavioral simulation
-- Synthesis
-- Implementation
-- Timing analysis
-- Power analysis
-- Device utilization
-- Constraints and pin mapping
-- Virtual I/O (VIO)
-
----
 # Introduction to FPGA (Field Programmable Gate Array)
 
 A field-programmable gate array (FPGA) is a type of configurable integrated circuit that can be repeatedly programmed . 
@@ -47,9 +31,24 @@ Performance| slower but more versatile | faster and more efficient |
 Hardware Design| RTL to Bitstream | RTL to Layout |
 
 ---
+The complete flow covered:
+- Introduction to FPGA and programmable logic
+- FPGA vs ASIC comparison
+- FPGA internal architecture
+- LUTs, CLBs, Flip-Flops and routing resources
+- Vivado RTL-to-Bitstream flow
+- Behavioral simulation
+- Synthesis
+- Implementation
+- Timing analysis
+- Power analysis
+- Device utilization
+- Constraints and pin mapping
+- Virtual I/O (VIO)
 
-# FPGA Architecture
-![FPGA_Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/FPGA_Architecture.png).
+---
+
+
 
 An FPGA mainly consists of:
 - Configurable Logic Blocks (CLBs)
