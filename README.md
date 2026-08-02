@@ -86,6 +86,8 @@ There are about more than 20 architecture of that #EArch.xml# FPGA architecture 
 ![Critical Path Analysis ](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Critical%20Path%20Analysis.png)
 
 ![RoutingUtilization_Report](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/blob/main/Routing%20Utilization_report.png)
+## Timing Analysis before using constraints
+
 # Timing Analysis using Constraints
 
 Timing constraints were added using an SDC file. The constraints file gives Clock period,Input and Output delays
