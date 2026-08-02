@@ -23,7 +23,7 @@ The complete flow covered:
 - Virtual I/O (VIO)
 
 ---
-![FPGA Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/commit/01a55d140b6b9d77c7035687985e5e10967d2843/FPGA Architecture.png)
+![FPGA Architecture](https://github.com/sneh2411/FPGA-Fabric-Design-and-Architecture/commit/01a55d140b6b9d77c7035687985e5e10967d2843/FPGAArchitecture.png)
 ![Introduction](https://github.com/sneh2411/RISC-V-Based-Myth/blob/c250a8eb4c8890a9f267eb631c8255efaee4666b/Introduction.jpg)
 # Introduction to FPGA (Field Programmable Gate Array)
 
